@@ -7,4 +7,4 @@ Início do Projeto.
 
 TODO: 
 Integrar abertura de executáveis para jogos externos.
-Otimização de código.
+//Otimização de código.//
