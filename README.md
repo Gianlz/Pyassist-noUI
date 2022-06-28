@@ -1,5 +1,5 @@
 # Pyassist
-Simple python assistent
+Simple python assistent without UI
 
 24/06/2022
 Início do Projeto.
