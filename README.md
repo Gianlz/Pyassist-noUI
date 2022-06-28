@@ -9,6 +9,7 @@ Início do Projeto.
 28/06/2022
 
 Adicionado a função de abertura do jogo Valorant via batch.
+Adicionado aba Arduino, e funcão coloraim para valorant.
 
 ![image](https://user-images.githubusercontent.com/67298422/176287737-3560a047-97f3-4acc-9693-42f22c1e3a3c.png)
 
@@ -21,7 +22,14 @@ Adicionado a função de abertura do jogo Valorant via batch.
 
 
 TODO: 
-Criar novas funçóes, linkar com IA's...
-Arduino.
+Main.py
+  Criar novas funções, linkar com IA's...
+  Arduino.
+
+Color.py
+        custom activation key (0xA2) or  CTRL
+        custom arduino COM input
+        custom HSV color
+        headlock (Extreme Opencv Points)  
 
 //Otimização de código.//
