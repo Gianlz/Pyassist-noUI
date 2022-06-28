@@ -10,6 +10,10 @@ Início do Projeto.
 
 Adicionado a função de abertura do jogo Valorant via batch.
 
+
+
+
+
 TODO: 
 Integrar abertura de executáveis para jogos externos.
 
