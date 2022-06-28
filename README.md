@@ -10,6 +10,7 @@ Início do Projeto.
 
 Adicionado a função de abertura do jogo Valorant via batch.
 Adicionado aba Arduino, e funcão coloraim para valorant.
+Adicionado custom key para coloraim
 
 ![image](https://user-images.githubusercontent.com/67298422/176287737-3560a047-97f3-4acc-9693-42f22c1e3a3c.png)
 
@@ -29,8 +30,6 @@ Main.py
     Arduino.
 
 Color.py
-
-        custom activation key (0xA2) or  CTRL
         
         custom arduino COM input
         
