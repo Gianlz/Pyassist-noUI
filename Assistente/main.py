@@ -1,6 +1,7 @@
 import webbrowser as wb
 import os
 import random as rm
+import subprocess
 # Assitente Virtual 2.0 sem UI.
 
 #Feito por Gianluca Zugno 
@@ -44,8 +45,10 @@ def selection():
                 wb.open("steam://rungameid/359550")
             elif gameselect == 2:
                 wb.open('steam://rungameid/730')
-            elif gameselect == 3:
-                print("Avalible soon")
+            elif gameselect == 3:    
+                subprocess.call([r'C:\Users\skyla\Desktop\Assist\Assistente-noUI\exec.bat'])
+                os.system("cls")
+                selection()
             elif gameselect == 4:
                 wb.open('steam://rungameid/920490')
             elif gameselect == 5:
