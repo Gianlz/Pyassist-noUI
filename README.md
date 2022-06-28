@@ -20,5 +20,6 @@ Adicionado a função de abertura do jogo Valorant via batch.
 
 TODO: 
 Criar novas funçóes, linkar com IA's...
+Arduino.
 
 //Otimização de código.//
