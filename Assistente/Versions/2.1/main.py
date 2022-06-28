@@ -66,6 +66,7 @@ def selection():
             wb.open('https://www.google.com.br')
         elif select == 3:
             os.system("cls")
+            print("Selecione seu processo: \n")
             print("[1] - AI Process (Soon)")
             print("[2] - Valorant Colaim")
             print("[3] - Valorant AI Yolov5 (Soon)")

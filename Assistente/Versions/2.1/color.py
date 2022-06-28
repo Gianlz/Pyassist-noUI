@@ -3,21 +3,33 @@ from mss import mss
 import numpy as np
 import win32api
 import serial
+import os
  
 def colaim():
     fov = int(input("fov (40): "))
+    os.system("cls")
+    print(r"""
+    KEYS ={
+    R_CTRL = 162
+    VK_LBUTTON = 1
+    VK_RBUTTON = 2
+    VK_TAB = 9
+    VK_LSHIFT = 160
+    VK_LMENU(alt) = 164
+    }
+    """)
+    act_key = int(input("Insert your key: "))
     '''
         TODO 
-        custom activation key (0xA2) or  CTRL
         custom arduino COM input
         custom HSV color
         headlock (Extreme Opencv Points)  
     '''
     sct = mss()
-    
+
     # Change your COM
     arduino = serial.Serial("COM3", 115200)
-    
+
     screenshot = sct.monitors[1]
     screenshot['left'] = int((screenshot['width'] / 2) - (fov / 2))
     screenshot['top'] = int((screenshot['height'] / 2) - (fov / 2))
@@ -27,24 +39,24 @@ def colaim():
 
     lower = np.array([140,111,160])
     upper = np.array([148,154,194])
-    
+
 
     xspeed = float(input("X Speed (Default 0.1) :"))
     yspeed = float(input("Y Speed (Default 0.1) :"))
     print("Running!, press Ctrl to aim")
-    
+
     def mousemove(x,y):
         if x < 0: 
             x = x+256 
         if y < 0:
             y = y+256 
-    
+
         pax = [int(x),int(y)]
         arduino.write(pax)
-    
-    
+
+
     while True:
-        if win32api.GetAsyncKeyState(0xA2) < 0:
+        if win32api.GetAsyncKeyState(act_key) < 0:
             
             img = np.array(sct.grab(screenshot))
             hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
