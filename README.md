@@ -23,8 +23,10 @@ Adicionado aba Arduino, e funcão coloraim para valorant.
 
 TODO: 
 Main.py
-  Criar novas funções, linkar com IA's...
-  Arduino.
+
+    Criar novas funções, linkar com IA's...
+    
+    Arduino.
 
 Color.py
 
