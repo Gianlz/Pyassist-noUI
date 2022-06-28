@@ -27,9 +27,13 @@ Main.py
   Arduino.
 
 Color.py
+
         custom activation key (0xA2) or  CTRL
+        
         custom arduino COM input
+        
         custom HSV color
+        
         headlock (Extreme Opencv Points)  
 
 //Otimização de código.//
