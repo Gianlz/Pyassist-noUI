@@ -14,6 +14,10 @@ Adicionado aba Arduino, e funcão coloraim para valorant.
 
 Adicionado custom key para coloraim
 
+29/06/2022
+
+Adicionado requirements.txt
+
 ![image](https://user-images.githubusercontent.com/67298422/176287737-3560a047-97f3-4acc-9693-42f22c1e3a3c.png)
 
 ![image](https://user-images.githubusercontent.com/67298422/176287895-fbaa20b2-b4ae-4944-8e5d-ab2a77e10916.png)
