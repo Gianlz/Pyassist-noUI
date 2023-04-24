@@ -44,3 +44,6 @@ Color.py
         headlock (Extreme Opencv Points)  
 
 //Otimização de código.//
+
+
+Código Finalizado porém não vou disponibilizar a versão finalizada, pois pode ser usado de má fé, atrapalhando jogos online.
