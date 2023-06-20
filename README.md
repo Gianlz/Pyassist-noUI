@@ -4,16 +4,18 @@ Simple python assistant without UI
 
 ## Funcionalidades
 
-- Um simples assistente Pessoal que abre jogos, google e tem seu próprio auxílio de mira.
+- Um simples assistente Pessoal que abre jogos, google e tem visão computacional para detecção de bonecos.
 
 ### Jogos
 
-- Abertura do jogo Valorant via batch.
+- Rainbow Six
+- Valorant
+- Counter Strike GO
+- Driver Booster
 
 ### Arduino
 
 - Função coloraim para Valorant.
-- Custom key para coloraim.
 
 ## Requisitos
 
@@ -27,5 +29,5 @@ Adicionado requirements.txt
 
 ## Versão Final
 
-Versão finalizada de color aim
+Versão finalizada de color aim.
 
