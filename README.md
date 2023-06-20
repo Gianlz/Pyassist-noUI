@@ -6,6 +6,11 @@ Início do Projeto.
 
 //Esse é um projeto para estudar conceitos estudados em python.//
 
+## Funcionalidades
+
+- Um simples assintente Pessoal que abre jogos, google e tem seu própiro auxilo de mira.
+  
+
 28/06/2022
 
 Adicionado a função de abertura do jogo Valorant via batch.
@@ -25,25 +30,7 @@ Adicionado requirements.txt
 <img> ![image](https://user-images.githubusercontent.com/67298422/176273544-a1b2eb77-9993-4e89-b6d5-96364ffa7372.png) </img>
 
 
+# 19/06
+Versão finalizada de color aim
 
 
-
-TODO: 
-Main.py
-
-    Criar novas funções, linkar com IA's...
-    
-    Arduino.
-
-Color.py
-        
-        custom arduino COM input
-        
-        custom HSV color
-        
-        headlock (Extreme Opencv Points)  
-
-//Otimização de código.//
-
-
-Código Finalizado porém não vou disponibilizar a versão finalizada, pois pode ser usado de má fé, atrapalhando jogos online.
